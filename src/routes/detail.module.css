@@ -1,0 +1,17 @@
+.left {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bolder;
+    width: calc(20% - 20px);
+    text-align: right;
+    padding-right: 20px;
+    height: 28px;
+}
+
+
+.right {
+    list-style-type: none;
+    display: inline-block;
+    width: 80%;
+    height: 28px;
+}
