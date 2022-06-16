@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/daegu-food-app/static/css/main.3f72c34a.css",
-    "main.js": "/daegu-food-app/static/js/main.26be0f0f.js",
+    "main.js": "/daegu-food-app/static/js/main.de03438a.js",
     "index.html": "/daegu-food-app/index.html",
     "main.3f72c34a.css.map": "/daegu-food-app/static/css/main.3f72c34a.css.map",
-    "main.26be0f0f.js.map": "/daegu-food-app/static/js/main.26be0f0f.js.map"
+    "main.de03438a.js.map": "/daegu-food-app/static/js/main.de03438a.js.map"
   },
   "entrypoints": [
     "static/css/main.3f72c34a.css",
-    "static/js/main.26be0f0f.js"
+    "static/js/main.de03438a.js"
   ]
 }
