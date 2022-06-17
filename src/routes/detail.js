@@ -7,7 +7,8 @@ export default function Detail() {
   const [item, setItem] = useState();
   const [loading, setLoading] = useState(true);
   const getItem = async () => {
-    const url = `/api/tasty.html?mode=json&addr=${params.gu}`;
+    const url = `/kor/api/tasty.html?mode=json&addr=${params.gu}`;
+    // const url = `/api/tasty.html?mode=json&addr=${params.gu}`;
     const response = await fetch(url);
     const json = await response.json();
     const items = json.data;

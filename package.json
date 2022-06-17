@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
@@ -39,8 +39,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://www.daegufood.go.kr/kor",
+  "proxy": "https://www.daegufood.go.kr",
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://i33w.github.io/daegu-food-app/"
 }

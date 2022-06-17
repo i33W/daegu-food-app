@@ -25,7 +25,9 @@ export default function Home() {
   const onClick = (event) => {};
 
   const getItemList = async () => {
-    const url = `/api/tasty.html?mode=json&addr=${selectedGu}`;
+    //   const url = `/api/tasty.html?mode=json&addr=${selectedGu}`;
+    const url = `/kor/api/tasty.html?mode=json&addr=${selectedGu}`;
+
     console.log("  URL:", url);
     const response = await fetch(url);
     console.log("  Fetch complete");
